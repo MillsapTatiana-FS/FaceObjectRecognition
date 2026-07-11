@@ -48,9 +48,9 @@ FaceObjectRecognition/
 
 ```bash
 pip install -r requirements.txt 
+```
 
-
-Download the MobileNet SSD model files:
+## Download the MobileNet SSD model files:
 
 MobileNetSSD_deploy.prototxt
 
@@ -63,8 +63,11 @@ Place them inside the models/ folder.
 
 Run the main script:
 
+```
 bash
 python src/app.py
+```
+
 Controls:
 
 Press q to quit
@@ -75,7 +78,7 @@ Face Detection
 The application uses OpenCV’s Haar Cascade classifier to detect frontal faces.
 It converts each frame to grayscale and identifies face regions using pattern matching.
 
-Object Recognition
+## Object Recognition
 
 The system uses the MobileNet SSD deep learning model trained on the COCO dataset.
 Each frame is converted into a blob and passed through the network to detect objects such as:
@@ -97,6 +100,7 @@ Each frame is converted into a blob and passed through the network to detect obj
 Bounding boxes and confidence scores are drawn on the frame.
 
 ## 📝 Requirements
+
 Python 3.10+
 
 OpenCV
