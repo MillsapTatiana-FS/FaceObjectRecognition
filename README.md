@@ -95,3 +95,22 @@ Each frame is converted into a blob and passed through the network to detect obj
 * Cell Phone (detected as “cell phone” or “mobile device” depending on model)
 
 Bounding boxes and confidence scores are drawn on the frame.
+
+## 📝 Requirements
+Python 3.10+
+
+OpenCV
+
+NumPy
+
+MobileNet SSD model files
+
+Haar Cascade XML file
+
+## 👩‍💻 Author
+Tatiana  
+Master’s-level Computer Science Student
+Lorain, Ohio
+
+## 📄 License
+This project is for academic use only.
