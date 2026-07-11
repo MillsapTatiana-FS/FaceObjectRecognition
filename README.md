@@ -78,7 +78,7 @@ Face Detection
 The application uses OpenCV’s Haar Cascade classifier to detect frontal faces.
 It converts each frame to grayscale and identifies face regions using pattern matching.
 
-## Object Recognition
+Object Recognition
 
 The system uses the MobileNet SSD deep learning model trained on the COCO dataset.
 Each frame is converted into a blob and passed through the network to detect objects such as:
